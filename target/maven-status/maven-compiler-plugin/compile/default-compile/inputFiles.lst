@@ -1,0 +1,10 @@
+C:\Users\jc185667\Documents\Gasto\src\main\java\com\expensetracker\domain\category\Category.java
+C:\Users\jc185667\Documents\Gasto\src\main\java\com\expensetracker\domain\category\CategoryRepository.java
+C:\Users\jc185667\Documents\Gasto\src\main\java\com\expensetracker\domain\exception\BusinessException.java
+C:\Users\jc185667\Documents\Gasto\src\main\java\com\expensetracker\domain\exception\ResourceNotFoundException.java
+C:\Users\jc185667\Documents\Gasto\src\main\java\com\expensetracker\domain\expense\Expense.java
+C:\Users\jc185667\Documents\Gasto\src\main\java\com\expensetracker\domain\expense\ExpenseRepository.java
+C:\Users\jc185667\Documents\Gasto\src\main\java\com\expensetracker\domain\expense\ExpenseSummary.java
+C:\Users\jc185667\Documents\Gasto\src\main\java\com\expensetracker\domain\user\User.java
+C:\Users\jc185667\Documents\Gasto\src\main\java\com\expensetracker\domain\user\UserRepository.java
+C:\Users\jc185667\Documents\Gasto\src\main\java\com\expensetracker\ExpenseTrackerApplication.java
