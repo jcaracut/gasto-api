@@ -1,4 +1,4 @@
-﻿package com.gasto.application.user.dto;
+package com.gasto.application.user.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

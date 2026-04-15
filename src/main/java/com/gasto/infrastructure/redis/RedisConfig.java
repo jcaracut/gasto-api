@@ -1,4 +1,4 @@
-﻿package com.gasto.infrastructure.redis;
+package com.gasto.infrastructure.redis;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

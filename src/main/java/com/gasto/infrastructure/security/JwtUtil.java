@@ -1,4 +1,4 @@
-﻿package com.gasto.infrastructure.security;
+package com.gasto.infrastructure.security;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;

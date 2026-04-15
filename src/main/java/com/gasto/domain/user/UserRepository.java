@@ -1,4 +1,4 @@
-﻿package com.gasto.domain.user;
+package com.gasto.domain.user;
 
 import java.util.Optional;
 import java.util.UUID;

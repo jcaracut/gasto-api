@@ -1,4 +1,4 @@
-﻿package com.gasto.infrastructure.kafka;
+package com.gasto.infrastructure.kafka;
 
 import com.gasto.domain.expense.Expense;
 import lombok.RequiredArgsConstructor;

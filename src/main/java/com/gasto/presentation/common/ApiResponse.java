@@ -1,4 +1,4 @@
-﻿package com.gasto.presentation.common;
+package com.gasto.presentation.common;
 
 import java.time.OffsetDateTime;
 import java.util.Map;
@@ -19,5 +19,9 @@ public record ApiResponse<T>(
 
     public static ApiResponse<Map<String, String>> error(String message) {
         return new ApiResponse<>(false, Map.of("error", message), message, OffsetDateTime.now());
+    }
+
+    public static ApiResponse<Map<String, String>> error(String message, String traceId) {
+        return new ApiResponse<>(false, Map.of("error", message, "traceId", traceId), message, OffsetDateTime.now());
     }
 }

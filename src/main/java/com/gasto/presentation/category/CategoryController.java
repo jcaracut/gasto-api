@@ -1,4 +1,4 @@
-﻿package com.gasto.presentation.category;
+package com.gasto.presentation.category;
 
 import com.gasto.domain.category.Category;
 import com.gasto.domain.category.CategoryRepository;

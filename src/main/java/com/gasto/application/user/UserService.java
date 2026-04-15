@@ -1,4 +1,4 @@
-﻿package com.gasto.application.user;
+package com.gasto.application.user;
 
 import com.gasto.application.user.dto.UpdateUserRequest;
 import com.gasto.application.user.dto.UserResponse;

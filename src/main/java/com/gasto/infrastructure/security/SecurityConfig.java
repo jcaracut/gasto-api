@@ -1,4 +1,4 @@
-﻿package com.gasto.infrastructure.security;
+package com.gasto.infrastructure.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;

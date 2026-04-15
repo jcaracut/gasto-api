@@ -1,4 +1,4 @@
-﻿package com.gasto.infrastructure.persistence.jpa;
+package com.gasto.infrastructure.persistence.jpa;
 
 import com.gasto.domain.category.Category;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,4 +1,4 @@
-﻿package com.gasto.domain.category;
+package com.gasto.domain.category;
 
 import jakarta.persistence.*;
 import lombok.*;

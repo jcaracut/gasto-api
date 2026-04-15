@@ -1,4 +1,4 @@
-﻿package com.gasto.infrastructure.persistence.adapter;
+package com.gasto.infrastructure.persistence.adapter;
 
 import com.gasto.domain.expense.Expense;
 import com.gasto.domain.expense.ExpenseRepository;

@@ -1,4 +1,4 @@
-﻿package com.gasto.application.expense;
+package com.gasto.application.expense;
 
 import com.gasto.application.expense.dto.*;
 import com.gasto.domain.category.Category;

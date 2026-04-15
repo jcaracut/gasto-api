@@ -1,4 +1,4 @@
-﻿package com.gasto.presentation.expense;
+package com.gasto.presentation.expense;
 
 import com.gasto.application.expense.ExpenseService;
 import com.gasto.application.expense.dto.*;

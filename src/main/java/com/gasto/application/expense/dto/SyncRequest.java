@@ -1,4 +1,4 @@
-﻿package com.gasto.application.expense.dto;
+package com.gasto.application.expense.dto;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotEmpty;

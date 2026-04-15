@@ -1,4 +1,4 @@
-﻿package com.gasto.presentation.auth;
+package com.gasto.presentation.auth;
 
 import com.gasto.application.auth.AuthService;
 import com.gasto.application.auth.dto.AuthResponse;

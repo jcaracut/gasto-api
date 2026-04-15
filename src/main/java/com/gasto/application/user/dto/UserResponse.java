@@ -1,4 +1,4 @@
-﻿package com.gasto.application.user.dto;
+package com.gasto.application.user.dto;
 
 import com.gasto.domain.user.User;
 

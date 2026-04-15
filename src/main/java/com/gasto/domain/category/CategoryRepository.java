@@ -1,4 +1,4 @@
-﻿package com.gasto.domain.category;
+package com.gasto.domain.category;
 
 import java.util.List;
 import java.util.Optional;

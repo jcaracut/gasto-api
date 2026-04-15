@@ -1,4 +1,4 @@
-﻿package com.gasto.presentation.expense;
+package com.gasto.presentation.expense;
 
 import com.gasto.application.expense.ExpenseService;
 import com.gasto.application.expense.dto.ExpenseRequest;
@@ -9,6 +9,7 @@ import com.gasto.infrastructure.security.JwtUtil;
 import com.gasto.infrastructure.security.SecurityConfig;
 import com.gasto.infrastructure.security.UserDetailsServiceImpl;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.micrometer.tracing.Tracer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,6 +43,7 @@ class ExpenseControllerTest {
     @MockitoBean ExpenseService expenseService;
     @MockitoBean UserDetailsServiceImpl userDetailsService;
     @MockitoBean JwtUtil jwtUtil;
+    @MockitoBean Tracer tracer;
 
     private UUID userId;
     private UUID expenseId;

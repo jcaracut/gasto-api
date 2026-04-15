@@ -1,4 +1,4 @@
-﻿package com.gasto.infrastructure.redis;
+package com.gasto.infrastructure.redis;
 
 import com.gasto.application.expense.dto.ExpenseResponse;
 import com.gasto.application.expense.dto.ExpenseSummaryResponse;

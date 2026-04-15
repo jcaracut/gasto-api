@@ -1,4 +1,4 @@
-﻿package com.gasto.presentation.auth;
+package com.gasto.presentation.auth;
 
 import com.gasto.application.auth.AuthService;
 import com.gasto.application.auth.dto.AuthResponse;
@@ -9,6 +9,7 @@ import com.gasto.infrastructure.security.JwtAuthFilter;
 import com.gasto.infrastructure.security.SecurityConfig;
 import com.gasto.infrastructure.security.UserDetailsServiceImpl;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.micrometer.tracing.Tracer;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -35,6 +36,7 @@ class AuthControllerTest {
     @MockitoBean AuthService authService;
     @MockitoBean UserDetailsServiceImpl userDetailsService;
     @MockitoBean com.gasto.infrastructure.security.JwtUtil jwtUtil;
+    @MockitoBean Tracer tracer;
 
     private static final AuthResponse SAMPLE_RESPONSE = AuthResponse.of(
             "token.jwt.value", UUID.randomUUID(), "jane@example.com", "Jane Doe");

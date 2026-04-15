@@ -1,4 +1,4 @@
-﻿package com.gasto.application.expense.dto;
+package com.gasto.application.expense.dto;
 
 import java.math.BigDecimal;
 import java.util.UUID;

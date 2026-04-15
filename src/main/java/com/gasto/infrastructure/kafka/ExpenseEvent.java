@@ -1,4 +1,4 @@
-﻿package com.gasto.infrastructure.kafka;
+package com.gasto.infrastructure.kafka;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

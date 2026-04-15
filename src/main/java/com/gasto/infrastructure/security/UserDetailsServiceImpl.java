@@ -1,4 +1,4 @@
-﻿package com.gasto.infrastructure.security;
+package com.gasto.infrastructure.security;
 
 import com.gasto.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;

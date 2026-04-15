@@ -1,4 +1,4 @@
-﻿package com.gasto.infrastructure.persistence.adapter;
+package com.gasto.infrastructure.persistence.adapter;
 
 import com.gasto.domain.user.User;
 import com.gasto.domain.user.UserRepository;
