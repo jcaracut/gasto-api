@@ -1,0 +1,18 @@
+# Exclude build output ? the Dockerfile copies target/ explicitly
+target/
+
+# IDE and OS noise
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Git metadata
+.git/
+.gitignore
+
+# Local env overrides
+.env
+.env.*
+!.env.example
